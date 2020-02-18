@@ -1,0 +1,27 @@
+.TableWrapper {
+  width: 60%;
+  margin: 40px auto;
+}
+.TableWrapper label {
+  width: 48%;
+  display: inline-block;
+  text-align: left;
+  margin: 10px;
+}
+.TableWrapper label:last-child {
+  margin-right: 0;
+}
+.TableWrapper label:first-child {
+  margin-left: 0;
+}
+.TableWrapper input {
+  width: 100%;
+  display: inline-block;
+  text-align: left;
+  padding: 5px;
+}
+
+.Table {
+  table-layout: fixed;
+  width: 100%;
+}
